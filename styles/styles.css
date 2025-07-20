@@ -14,6 +14,17 @@
   --shadow-img: 0 0 30px gray;
   --aside-width: 20rem;
   --main-max-width: 840px;
+  --box-margin: 1rem;
+  --box-padding: 1rem;
+  --box-border: 1px solid rgba(0,0,0,0.1);
+  --box-bg: #ddd;
+  --box-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
@@ -43,6 +54,7 @@ aside {
   background-color: var(--color-aside-bg);
   color: var(--color-aside-text);
   text-align: center;
+  position: relative;
 }
 
 aside img {
@@ -56,10 +68,26 @@ main img {
   border: var(--border-default);
   padding: 2px;
   box-shadow: var(--shadow-img);
+  float: right;
+  margin-left: 1rem;
 }
 
 p {
   padding: 0;
+}
+
+.box {
+  margin: var(--box-margin);
+  border: var(--box-border);
+  padding: var(--box-padding);
+  background-color: var(--box-bg);
+  color: var(--box-color);
+}
+
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 
 footer {
