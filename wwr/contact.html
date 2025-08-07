@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Whitewater Rafting</title>
+  <meta name="description" content="Get in touch with Whitewater Rafting Company for reservations, questions, or suggestions.">
+  <meta name="author" content="Axel Ake">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/wwr-logo.png" alt="Rafting Company Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h1>Contact Us</h1>
+      <p><strong>Address:</strong> 3702 E Provo Canyon Rd, Provo, Utah</p>
+      <p><strong>Phone:</strong> (208) 555-1234</p>
+      <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3040.375142508608!2d-111.57768051540901!3d40.35620549783374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sus!4v1754421055652!5m2!1ses-419!2sus"
+        width="600" height="450" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+      <div class="employee-grid">
+        <figure>
+          <img src="images/employee1.jpg" alt="Rafting Manager">
+          <figcaption>John Smith - Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="Rafting Guide">
+          <figcaption>Zoe Johnson - Senior Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Customer Support">
+          <figcaption>David Chen - Customer Support</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form>
+        <div class="form-item">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div class="form-item">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-item">
+  <label>Purpose of Your Message</label>
+  <div class="radio-options">
+    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+  </div>
+</div>
+
+        <div class="form-item">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div class="form-item">
+          <label>
+            <input type="checkbox" name="newsletter"> Subscribe to our monthly newsletter
+          </label>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Whitewater Rafting Company | Axel Ake</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+      <a href="https://x.com"><img src="images/x.svg" alt="X"></a>
+      <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+    </nav>
+    <p><a href="images/contact-wireframe.png">View Contact Page Wireframe</a></p>
+  </footer>
+</body>
+</html>
