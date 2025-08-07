@@ -67,13 +67,22 @@
         </div>
 
         <div class="form-item">
-  <label>Purpose of Your Message</label>
-  <div class="radio-options">
-    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-  </div>
-</div>
+          <label for="purpose">Purpose of Your Message</label>
+          <div class="radio-options" id="purpose">
+            <label for="general">
+              <input type="radio" id="general" name="purpose" value="general" required>
+              General Inquiry
+            </label>
+            <label for="reservation">
+              <input type="radio" id="reservation" name="purpose" value="reservation">
+              Reservation Question
+            </label>
+            <label for="suggestion">
+              <input type="radio" id="suggestion" name="purpose" value="suggestion">
+              Website Suggestion
+            </label>
+          </div>
+        </div>
 
         <div class="form-item">
           <label for="message">Message:</label>
@@ -81,8 +90,9 @@
         </div>
 
         <div class="form-item">
-          <label>
-            <input type="checkbox" name="newsletter"> Subscribe to our monthly newsletter
+          <label for="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            Subscribe to our monthly newsletter
           </label>
         </div>
 

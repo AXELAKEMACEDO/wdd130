@@ -139,7 +139,7 @@ footer {
 section h2 {
   text-align: center;
 }
-/* Contact Page Styles Finales */
+/* Contact Page Styles */
 
 .contact-info {
   text-align: center;
@@ -204,7 +204,7 @@ section h2 {
   gap: 0.5rem;
 }
 
-.contact-form label:not([for="newsletter"]):not(:has(input[type="radio"])) {
+.contact-form label {
   color: white;
 }
 
@@ -220,7 +220,7 @@ section h2 {
 fieldset {
   border: 1px solid #ccc;
   border-radius: 6px;
-  padding: 0.3rem;
+  padding: 1rem;
   background: #fff;
 }
 
@@ -246,9 +246,6 @@ button:hover {
 .radio-options {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  background-color: white;
+  gap: 3rem;
   padding: 1rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
 }
